@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet } from 'react-native';
+import Student from './Screen/Student';
 // import StudentScreen from './Screen/StudentScreen';
-import ButtonScreen from './Screen/ButtonScreens';
+// import ButtonScreen from './Screen/ButtonScreens';
 
 export default function App() {
-  return <ButtonScreen/>;
+  return <Student/>;
 }
 
 // const styles = StyleSheet.create({
