@@ -1,11 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet } from 'react-native';
-import ProfileScreen from './Screen/profilescreen';
+import PostsScreen from './Screen/PostsScreen';
+// import ProfileScreen from './Screen/profilescreen';
 // import StudentScreen from './Screen/StudentScreen';
 // import ButtonScreen from './Screen/ButtonScreens';
 
 export default function App() {
-  return <ProfileScreen/>;
+  return <PostsScreen/>;
 }
 
 // const styles = StyleSheet.create({
